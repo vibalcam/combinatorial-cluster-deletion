@@ -1,0 +1,6 @@
+tmp/
+notes.md
+data/
+sync.sh
+.DS_Store
+.vscode/
