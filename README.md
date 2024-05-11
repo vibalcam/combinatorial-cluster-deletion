@@ -2,8 +2,12 @@
 
 Code for fast combinatorial methods to solve cluster deletion (DegMFP and RatMFP) and combinatorial solver for STC-LP.
 
-Repo for the paper:
+Repo for the ICML 2024 paper:
+
 **Combinatorial Approximations for Cluster Deletion: Simpler, Faster, and Better**
+
+[arXiv](https://doi.org/10.48550/arXiv.2404.16131)
+[ICML 2024](https://icml.cc/virtual/2024/poster/34522)
 
 ## Code Organization
 
@@ -26,10 +30,26 @@ The implementation for the combinatorial solver for STC-LP can be found in `src/
 
 ### Data
 
-This repo contains some, but not all of the datasets used in the experiments. Other graphs may be accessed via the SNAP repository or the suitesparse matrix collection.
+This repo contains some small toy graphs in the folder `data/smallgraphs`.
 
-Details for how to download and standardize all snap graphs for experiments can be found in the folder data/snap-graphs, in file `standardize-snap-graphs.jl`.
+Most of the standardized graphs used in the experiments can be downloaded from [google drive](https://drive.google.com/file/d/15ytTbvT0Bd55GlBVehc1kI3_Qo59AEjD/view?usp=drive_link). These graphs are in the format needed to run the experiments.
+
+Instead, the graphs used in the paper can be downloaded from [suitesparse.com](https://people.engr.tamu.edu/davis/suitesparse.html) and standardized using the `data/standardize-snap-graphs.jl` script.
 
 ## Acknowledgements
 
 Our implementation is based on nveldt's repo [FastCC-via-STC](https://github.com/nveldt/FastCC-via-STC/tree/main).
+
+## Reference
+
+If you find our work helpful, please cite our paper:
+```
+@misc{balmaseda2024combinatorial,
+  title={Combinatorial Approximations for Cluster Deletion: Simpler, Faster, and Better}, 
+  author={Vicente Balmaseda and Ying Xu and Yixin Cao and Nate Veldt},
+  year={2024},
+  eprint={2404.16131},
+  archivePrefix={arXiv},
+  primaryClass={cs.DS}
+}
+```

@@ -1,6 +1,8 @@
 tmp/
 notes.md
-data/
+data/*
+!data/smallgraphs
+!data/standardize-snap-graphs.jl
 sync.sh
 .DS_Store
 .vscode/
