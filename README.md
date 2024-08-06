@@ -44,12 +44,18 @@ Our implementation is based on nveldt's repo [FastCC-via-STC](https://github.com
 
 If you find our work helpful, please cite our paper:
 ```
-@misc{balmaseda2024combinatorial,
-  title={Combinatorial Approximations for Cluster Deletion: Simpler, Faster, and Better}, 
-  author={Vicente Balmaseda and Ying Xu and Yixin Cao and Nate Veldt},
-  year={2024},
-  eprint={2404.16131},
-  archivePrefix={arXiv},
-  primaryClass={cs.DS}
+@InProceedings{pmlr-v235-balmaseda24a,
+  title = 	 {Combinatorial Approximations for Cluster Deletion: Simpler, Faster, and Better},
+  author =       {Balmaseda, Vicente and Xu, Ying and Cao, Yixin and Veldt, Nate},
+  booktitle = 	 {Proceedings of the 41st International Conference on Machine Learning},
+  pages = 	 {2586--2606},
+  year = 	 {2024},
+  editor = 	 {Salakhutdinov, Ruslan and Kolter, Zico and Heller, Katherine and Weller, Adrian and Oliver, Nuria and Scarlett, Jonathan and Berkenkamp, Felix},
+  volume = 	 {235},
+  series = 	 {Proceedings of Machine Learning Research},
+  month = 	 {21--27 Jul},
+  publisher =    {PMLR},
+  pdf = 	 {https://raw.githubusercontent.com/mlresearch/v235/main/assets/balmaseda24a/balmaseda24a.pdf},
+  url = 	 {https://proceedings.mlr.press/v235/balmaseda24a.html},
 }
 ```
