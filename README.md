@@ -1,13 +1,24 @@
 # Combinatorial Approximations for Cluster Deletion: Simpler, Faster, and Better
 
-Code for fast combinatorial methods to solve cluster deletion (DegMFP and RatMFP) and combinatorial solver for STC-LP.
-
-Repo for the ICML 2024 paper:
-
-**Combinatorial Approximations for Cluster Deletion: Simpler, Faster, and Better**
+Code for the ICML 2024 paper, [***Combinatorial Approximations for Cluster Deletion: Simpler, Faster, and Better***](https://proceedings.mlr.press/v235/balmaseda24a.html)
 
 [arXiv](https://doi.org/10.48550/arXiv.2404.16131)
 [ICML 2024](https://icml.cc/virtual/2024/poster/34522)
+
+---
+
+Code for fast combinatorial methods to solve cluster deletion (DegMFP and RatMFP) and combinatorial solver for STC-LP (Strong Triadic Closure-Linear Programming relaxation).
+
+![Cluster deletion example](assets/cd_example.png)
+
+**Table of Contents**
+- [Code Organization](#code-organization)
+  - [Experiments](#experiments)
+  - [Methods](#methods)
+  - [Data](#data)
+- [Acknowledgements](#acknowledgements)
+- [Cite](#cite)
+
 
 ## Code Organization
 
@@ -40,7 +51,7 @@ Instead, the graphs used in the paper can be downloaded from [suitesparse.com](h
 
 Our implementation is based on nveldt's repo [FastCC-via-STC](https://github.com/nveldt/FastCC-via-STC/tree/main).
 
-## Reference
+## Cite
 
 If you find our work helpful, please cite our paper:
 ```
